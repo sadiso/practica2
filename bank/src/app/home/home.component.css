@@ -1,0 +1,23 @@
+button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+button:hover {
+  background-color: white;
+  color: #04AA6D;
+  border: 1px solid #04AA6D;
+}
+
+h1, h2 {
+  color: #04AA6D; 
+}
