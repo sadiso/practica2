@@ -1,0 +1,13 @@
+<h2>Your accounts</h2>
+<button type="button" (click)="goBack()">Go Back</button>
+<table>
+  <tr>
+    <th>#</th>
+    <th>Account Number</th>
+  </tr>
+
+  <tr *ngFor="let account of accountsList; let i = index">
+    <td>{{i+1}}</td>
+    <td>{{account}}</td>
+  </tr>
+</table>

@@ -1,0 +1,27 @@
+<h2>Your transactons</h2>
+<button type="button" (click)=" goBack()">Go Back</button>
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Source</th>
+    <th>Destination</th>
+    <th>Amount</th>
+    <th>Category</th>
+    <th>Description</th>
+    <th>Status</th>
+    <th>Balance</th>
+    <th>Date</th>
+  </tr>
+
+  <tr *ngFor="let transaction of transactionsList">
+    <td>{{transaction.type}}</td>
+    <td>{{transaction.source}}</td>
+    <td>{{transaction.destination}}</td>
+    <td>{{transaction.amount}}</td>
+    <td>{{transaction.category}}</td>
+    <td>{{transaction.description}}</td>
+    <td>{{transaction.status}}</td>
+    <td>{{transaction.balance}}</td>
+    <td>{{dateWithFormat(transaction.date)}}</td>
+  </tr>
+</table>

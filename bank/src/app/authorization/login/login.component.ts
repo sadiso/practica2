@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { AuthenticationService } from '../services/authentication.service';
-import { Signinreq } from './model/request/signinreq';
-import { Signinres } from './model/response/signinres';
+import { Signinreq } from '../model/request/signinreq';
+import { Signinres } from '../model/response/signinres';
 import { Router } from '@angular/router';
 
 @Component({

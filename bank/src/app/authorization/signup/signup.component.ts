@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { AuthenticationService } from '../services/authentication.service';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
-import { Signupreq } from '../login/model/request/signupreq';
-import { Signupres } from '../login/model/response/signupres';
+import { Signupreq } from '../model/request/signupreq';
+import { Signupres } from '../model/response/signupres';
 import { Router } from '@angular/router';
 
 @Component({

@@ -2,11 +2,11 @@ import { Injectable } from '@angular/core';
 import { HandlerExceptionsService } from '../../utils/services/handler-exceptions.service';
 import { HttpClient } from '@angular/common/http';
 import { Observable, catchError, lastValueFrom, tap } from 'rxjs';
-import { Signinres } from '../login/model/response/signinres';
-import { Signinreq } from '../login/model/request/signinreq';
-import { Profileres } from '../login/model/response/profileres';
-import { Signupreq } from '../login/model/request/signupreq';
-import { Signupres } from '../login/model/response/signupres';
+import { Signinres } from '../model/response/signinres';
+import { Signinreq } from '../model/request/signinreq';
+import { Profileres } from '../model/response/profileres';
+import { Signupreq } from '../model/request/signupreq';
+import { Signupres } from '../model/response/signupres';
 
 @Injectable({
   providedIn: 'root'

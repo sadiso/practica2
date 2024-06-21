@@ -1,0 +1,35 @@
+<h2>Your dashboard</h2>
+<button type="button" (click)=" goBack()">Go Back</button>
+
+<table>
+    <caption><h1>total transactions by type</h1></caption>
+    <tr>
+        <th>Type</th>
+        <th>total</th>
+    </tr>
+    <tr>
+        <td>Withdrawal</td>
+        <td>{{withdrawalTransactions}}</td>
+    </tr>
+    <tr>
+        <td>Deposit</td>
+        <td>{{depositTransactions}}</td>
+        </tr>
+</table>
+
+
+<table>
+    <caption><h1>total transactions by status</h1></caption>
+    <tr>
+        <th>Status</th>
+        <th>total</th>
+    </tr>
+    <tr>
+        <td>Success</td>
+        <td>{{successTransactions}}</td>
+    </tr>
+    <tr>
+        <td>Insufficient Funds</td>
+        <td>{{failedTransactions}}</td>
+        </tr>
+</table>
